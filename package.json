@@ -6,7 +6,6 @@
     "node": ">=18.0.0"
   },
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js",
     "start:dev": "nodemon index.js",
