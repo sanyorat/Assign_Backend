@@ -16,7 +16,7 @@ This project is a simple backend service built with Express, Node.js, MongoDB, a
 - **Mongoose**: For schema-based interaction with MongoDB.
 
 ## API Endpoints
-- **POST /api/message**: Receives a message from the frontend, detects the intent, and responds with a random answer from the predefined stack.
+- **POST /api/v1/chat/message**: Receives a message from the frontend, detects the intent, and responds with a random answer from the predefined stack.
 
 ## Installation
 
