@@ -1,4 +1,5 @@
-const Chat = require('../models/chatModel');
+// eslint-disable-next-line import/extensions
+const Chat = require('../models/chatModel.js');
 
 // Function to determine the intent based on the user message
 const determineIntent = async (message) => {

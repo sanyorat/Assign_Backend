@@ -11,15 +11,6 @@ if (process.env.NODE_ENV === 'development') {
 
 app.use(express.json());
 app.use(express.static(`${__dirname}/public`));
-// app.get('/', (req, res) =>
-//   res.status(200).json({ message: 'Hello from the server' })
-// );
-
-// app.post('/post', (req, res) => {
-//   res.send('POST request to the homepage');
-// });
-
-//Routes
 
 app.use('/api/v1/chat', chatRouter);
 
